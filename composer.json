@@ -1,0 +1,16 @@
+{
+    "name": "laminas/laminas-cache-storage-adapter-benchmark",
+    "description": "Generic component to provide benchmarking capabilities to the various storage adapter",
+    "keywords": [
+        "laminas",
+        "cache",
+        "benchmark"
+    ],
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/laminas/laminas-cache-storage-adapter-benchmark/issues",
+        "forum": "https://discourse.laminas.dev/",
+        "source": "https://github.com/laminas/laminas-cache-storage-adapter-benchmark",
+        "rss": "https://github.com/laminas/laminas-cache-storage-adapter-benchmark/releases.atom"
+    }
+}
