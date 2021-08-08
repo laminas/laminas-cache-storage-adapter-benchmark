@@ -7,6 +7,29 @@
         "benchmark"
     ],
     "license": "BSD-3-Clause",
+    "require": {
+        "php": "^7.3 || ~8.0.0",
+        "laminas/laminas-serializer": "^2.10",
+        "phpbench/phpbench": "^1.0"
+    },
+    "require-dev": {
+        "laminas/laminas-cache-storage-adapter-memory": "^2.0",
+        "laminas/laminas-coding-standard": "~2.3.0",
+        "vimeo/psalm": "^4.9"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Laminas\\Cache\\Storage\\Adapter\\Benchmark\\": "src/"
+        }
+    },
+    "scripts": {
+        "cs-check": "phpcs",
+        "cs-fix": "phpcbf",
+        "static-analysis": "psalm --shepherd --stats"
+    },
     "support": {
         "issues": "https://github.com/laminas/laminas-cache-storage-adapter-benchmark/issues",
         "forum": "https://discourse.laminas.dev/",
