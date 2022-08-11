@@ -8,7 +8,7 @@
     ],
     "license": "BSD-3-Clause",
     "require": {
-        "php": "^7.3 || ~8.0.0",
+        "php": "~7.4.0 || ~8.0.0 || ~8.1.0",
         "laminas/laminas-serializer": "^2.10",
         "phpbench/phpbench": "^1.0"
     },
@@ -20,7 +20,7 @@
     "config": {
         "sort-packages": true,
         "platform": {
-            "php": "7.3.99"
+            "php": "7.4.99"
         },
         "allow-plugins": {
             "dealerdirect/phpcodesniffer-composer-installer": true
@@ -29,6 +29,11 @@
     "autoload": {
         "psr-4": {
             "Laminas\\Cache\\Storage\\Adapter\\Benchmark\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LaminasBench\\Cache\\": "benchmark/"
         }
     },
     "scripts": {
