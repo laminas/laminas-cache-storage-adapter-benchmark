@@ -1,7 +1,7 @@
 {
     "checks": [
         {
-            "name": "Execute benchmarks on all supported PHP platforms",
+            "name": "PHPBench",
             "job": {
                 "php": "*",
                 "dependencies": "latest",
