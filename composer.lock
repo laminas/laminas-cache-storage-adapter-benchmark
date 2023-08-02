@@ -1038,16 +1038,16 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v5.4.26",
+            "version": "v5.4.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "01ef6b2391a59bb4c5d3c59e2ef9b99c7d335d17"
+                "reference": "ff4bce3c33451e7ec778070e45bd23f74214cd5d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/01ef6b2391a59bb4c5d3c59e2ef9b99c7d335d17",
-                "reference": "01ef6b2391a59bb4c5d3c59e2ef9b99c7d335d17",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/ff4bce3c33451e7ec778070e45bd23f74214cd5d",
+                "reference": "ff4bce3c33451e7ec778070e45bd23f74214cd5d",
                 "shasum": ""
             },
             "require": {
@@ -1081,7 +1081,7 @@
             "description": "Finds files and directories via an intuitive fluent interface",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/finder/tree/v5.4.26"
+                "source": "https://github.com/symfony/finder/tree/v5.4.27"
             },
             "funding": [
                 {
@@ -1097,7 +1097,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-07-09T13:55:15+00:00"
+            "time": "2023-07-31T08:02:31+00:00"
         },
         {
             "name": "symfony/options-resolver",
@@ -3670,16 +3670,16 @@
         },
         {
             "name": "vimeo/psalm",
-            "version": "5.14.0",
+            "version": "5.14.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vimeo/psalm.git",
-                "reference": "b2942cefed8443002bd3f245c4cd0a54193716d8"
+                "reference": "b9d355e0829c397b9b3b47d0c0ed042a8a70284d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vimeo/psalm/zipball/b2942cefed8443002bd3f245c4cd0a54193716d8",
-                "reference": "b2942cefed8443002bd3f245c4cd0a54193716d8",
+                "url": "https://api.github.com/repos/vimeo/psalm/zipball/b9d355e0829c397b9b3b47d0c0ed042a8a70284d",
+                "reference": "b9d355e0829c397b9b3b47d0c0ed042a8a70284d",
                 "shasum": ""
             },
             "require": {
@@ -3770,9 +3770,9 @@
             ],
             "support": {
                 "issues": "https://github.com/vimeo/psalm/issues",
-                "source": "https://github.com/vimeo/psalm/tree/5.14.0"
+                "source": "https://github.com/vimeo/psalm/tree/5.14.1"
             },
-            "time": "2023-07-30T20:18:56+00:00"
+            "time": "2023-08-01T05:16:55+00:00"
         },
         {
             "name": "webimpress/coding-standard",
