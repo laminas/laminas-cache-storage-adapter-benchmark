@@ -9,7 +9,7 @@
     "license": "BSD-3-Clause",
     "require": {
         "php": "~8.1.0 || ~8.2.0 || ~8.3.0",
-        "laminas/laminas-serializer": "^2.10",
+        "laminas/laminas-serializer": "^2.10 || ^3.0",
         "phpbench/phpbench": "^1.0"
     },
     "require-dev": {
